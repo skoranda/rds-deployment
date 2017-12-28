@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EntitiesDescriptor 
+        xmlns="urn:oasis:names:tc:SAML:2.0:metadata" 
+        xmlns:ds="http://www.w3.org/2000/09/xmldsig#" 
+        xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata sstc-saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
+    <EntityDescriptor 
+            xmlns:idpdisc="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" 
+            xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" 
+            entityID="https://raid-groupid.exp.aaf.edu.au/sp/registry"
+            xmlns="urn:oasis:names:tc:SAML:2.0:metadata" 
+            xmlns:ds="http://www.w3.org/2000/09/xmldsig#" 
+            xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" 
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+            <Extensions>
+                <mdui:UIInfo>
+                    <mdui:DisplayName xml:lang="en">RDS RAiD Project Registry</mdui:DisplayName>
+                    <mdui:Description xml:lang="en">The RDS RAiD Project Registry is a COmanage Registry deployment facilitating collaboration for the RDS RAiD project.</mdui:Description>
+                </mdui:UIInfo>
+                <idpdisc:DiscoveryResponse index="0" isDefault="true" Binding="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" Location="https://raid-groupid.exp.aaf.edu.au/Shibboleth.sso/Login"/>
+            </Extensions>
+            <KeyDescriptor>
+                <ds:KeyInfo>
+                    <ds:X509Data>
+                        <ds:X509Certificate>
+MIIESTCCArGgAwIBAgIJAOyd/Rao+6KMMA0GCSqGSIb3DQEBCwUAMCYxJDAiBgNV
+BAMTG3JhaWQtZ3JvdXBpZC5leHAuYWFmLmVkdS5hdTAeFw0xNzExMTUxMTU0NTFa
+Fw0yNzExMTMxMTU0NTFaMCYxJDAiBgNVBAMTG3JhaWQtZ3JvdXBpZC5leHAuYWFm
+LmVkdS5hdTCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBANLAE1z1Ufid
+P6D3vu3ITwX9YuJytdZ7cGVIRZ9cRemMZzVopidOM8bm2wxBdZ/OBkMItJaZBGx8
+C/gpeGZ+JCNBfN91mQ7ytbXhzPJ4WNKEFP39CzJFbmwjirCeCLwog9HYm6iw0yU8
+zvMtKZXZPYvcszDUQQiqN77T7VgZNuZST1yamsSDMwli7zypO72h5gEDUwNugRDJ
+mYDeQvqVI6AUCO/R9zQ+59/GQ7PrpXVTUpk9CL/ngra+LuzDNTDcUVGuW1b/QE9t
+hNYZ35ITZQhsqlnVrxS4cOuBwC+IqtaYWHlXhmv8yEQNkck/CGjMmW0+MjZETzQQ
+PJlG34Zuegw1csCpvIQkc2QrBqvdbjI+b5bK7viU1EXosWxuG7haJYDa9+ayE6Uf
+CCS5xDy8vgqbGRpoVo5o9NNizYcfCexW8XUYMIRDbkisR9i76t/FQ+4nCd9UKgvA
+m0MPCbie0tmlqbE+leYE7RFfK79g2lFytD3q++7z6JYHrCvAOvOGGQIDAQABo3ow
+eDBXBgNVHREEUDBOghtyYWlkLWdyb3VwaWQuZXhwLmFhZi5lZHUuYXWGL2h0dHBz
+Oi8vcmFpZC1ncm91cGlkLmV4cC5hYWYuZWR1LmF1L3NwL3JlZ2lzdHJ5MB0GA1Ud
+DgQWBBTpUN7QMeSC8RVARC/o8X2UOS2UUTANBgkqhkiG9w0BAQsFAAOCAYEAnK9w
+n27UQyDFts1YW7rjrGfjC1q/1xsZ8N7UzkLa9n6Ddn4832CTEi/nLUmKQyHfXjap
+kVHNdHgJmFcxridv7DJ/Jjw3W1/mLFla2Xsp3Ijg9XA1wRv7EUS1SsFOWx2LzZFN
+B7GwgQrF9BEKMzT/7CMT1wD++xtOLlpb+vp0O7mIauTIKKBz2IM0foWIUJj6OYa6
+SgJ9TKca9l42sMKQ8ircH+nMmGXZRPt4Cv+b7XGXTGi+JDtM9Pom18yRbSv19O+N
+Abp8H90WQDTdOPmEGNfWBpS5uuq7hYHPd7MrYmHpnJ/vpUGezzzT8HkE4XHY8fgY
+aN3w1pPKx0htSjSe41C++sYWtx7oHOgToLWtQTE5sq1LaFgD8wNMw6yqc60EYoHp
+UKe3S4ii/QxvQj7RCv5hf7jWT/CLhRZQ0Zzin3vCoLoOMgCBZiiFKT7ygjbcJbKc
+omEiMTgMs6s4IwvqzmhXul4mUpEaiBPE2gYCX/SdaCi6Lj4mkLLenRtFGfDk
+                        </ds:X509Certificate>
+                    </ds:X509Data>
+                </ds:KeyInfo>
+            </KeyDescriptor>
+
+            <AssertionConsumerService 
+                    Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" 
+                    Location="https://raid-groupid.exp.aaf.edu.au/Shibboleth.sso/SAML2/POST" index="1"/>
+
+        </SPSSODescriptor>
+        <Organization>
+            <OrganizationName xml:lang="en">RDS RAiD Project</OrganizationName>
+            <OrganizationDisplayName xml:lang="en">RDS RAiD Project</OrganizationDisplayName>
+            <OrganizationURL xml:lang="en">https://www.raid.org.au/</OrganizationURL>
+        </Organization>
+        <ContactPerson contactType="support">
+          <GivenName>Terry</GivenName>
+          <SurName>Smith</SurName>
+          <EmailAddress>mailto:t.smith@aaf.edu.au </EmailAddress>
+        </ContactPerson>
+        <ContactPerson contactType="technical">
+          <GivenName>Terry</GivenName>
+          <SurName>Smith</SurName>
+          <EmailAddress>mailto:t.smith@aaf.edu.au </EmailAddress>
+        </ContactPerson>
+        <ContactPerson contactType="administrative">
+          <GivenName>Siobhann</GivenName>
+          <SurName>Mccafferty</SurName>
+          <EmailAddress>mailto:siobhann.mccafferty@aaf.edu.au</EmailAddress>
+        </ContactPerson>
+    </EntityDescriptor>
+
+    <EntityDescriptor 
+            entityID="https://saml-proxy-raid.exp.aaf.edu.au/sp"
+            xmlns:idpdisc="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" 
+            xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" 
+            xmlns="urn:oasis:names:tc:SAML:2.0:metadata" 
+            xmlns:ds="http://www.w3.org/2000/09/xmldsig#" 
+            xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" 
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+            <Extensions>
+                <mdui:UIInfo>
+                    <mdui:DisplayName xml:lang="en">RDS RAiD Project Collaboration Proxy</mdui:DisplayName>
+                    <mdui:Description xml:lang="en">The RDS RAiD Project Collaboration Proxy service provider is a SAML proxy enabling federation between eduGAIN identity servers and service providers that support collaboration services for the RDS RAiD project.</mdui:Description>
+                </mdui:UIInfo>
+                <idpdisc:DiscoveryResponse 
+                        Binding="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" 
+                        Location="https://saml-proxy-raid.exp.aaf.edu.au/Saml2/disco"/>
+            </Extensions>
+            <KeyDescriptor>
+                <ds:KeyInfo>
+                    <ds:X509Data>
+                        <ds:X509Certificate>
+MIIEUzCCArugAwIBAgIJAKjvVRdLpNIEMA0GCSqGSIb3DQEBCwUAMCkxJzAlBgNV
+BAMTHnNhbWwtcHJveHktcmFpZC5leHAuYWFmLmVkdS5hdTAeFw0xNzExMjUxNTU3
+MTRaFw0yNzExMjMxNTU3MTRaMCkxJzAlBgNVBAMTHnNhbWwtcHJveHktcmFpZC5l
+eHAuYWFmLmVkdS5hdTCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBAMRL
+cMGT+Afbembnsi2BhOTDwXekwZYHosLA1CmrA48ha4hSOIsdF0GkoFzZV068Cirg
+7ytx13DRmDyUgN+A6JG+qiqjPIPQyWrulBnABM3GJ0pENhRBZ1lMXkVbAxN8kCmI
+KYs/dEtslPdPDLiB2Co7oQJQtfCws35ZN+tvuidhwHieyo0STXb+tNqb4aZ9SUAq
+BIo3grL56YrY6vHZTTsBzkikl4LM8549o7jnnLmnaGqCml9XXksUMXWaESaHBnSL
+Bk7i1cPNWKYxghD2Y8TKNXtRXtHLYE1mCZdvD5T+Km3FRNA1X4C+Ba0e8Z8HzGmA
+MQDmUuda2sP+rjUwTYQHhbr1BL7PaWu3RdInSdXpkO6loblw4f+XxvrqYc/T4Vi7
+WB05tIEyfjovYe6iJoEsV17oZeOUlWoR6vtS5pN6LErbXjc/uyCz6mcIvCBtzfB/
+Q2ZOFIOhjPHOzDZ55FvETb2wjFYgD1NFyKqSD1SZfRlVQoWCMMyI8u2+TSrIIQID
+AQABo34wfDBbBgNVHREEVDBSgh5zYW1sLXByb3h5LXJhaWQuZXhwLmFhZi5lZHUu
+YXWGMGh0dHBzOi8vc2FtbC1wcm94eS1yYWlkLmV4cC5hYWYuZWR1LmF1L3NwL3Nh
+dG9zYTAdBgNVHQ4EFgQUCoaDPN2uF0VqIUIBO1sWRUaCMR8wDQYJKoZIhvcNAQEL
+BQADggGBADQmFy1y2csFUfUWFQncQwln/hLzf7urKv8HEF5eZkSn7n+0Yo0iko/t
+lsn0oCyZLEuA0LzoAsznzgHK6Oxxp0WAQ8znovTLFKC7m/wO7f2gWJJRiMW38rol
+f3QwB0Ei7BMVQ18h0rc7HqJorkF3sQhO/jdgoL3M+uZY/zXAHRQUzKSLTqBN7agz
++AyxUmqgChrFrUDSMBKchm22aqs7Ij8bCLYU03c7zKnDi05frLcz1gaYkNzxMNBf
+bDjSbSBU2RKsnPZy7aPtYriUnFvjfZ5myUfmCaJP+XrKzI7FoDyTJdxv9bCt5Aut
+hoE+ccQLUkvpEH3OAtxAlrd2LL/DM9FP5VSRL0S2P+hZS0hQt283sYQhv+eipOd8
+m3Na0+bYd47XRBrJAg1XWeWK1Re4jyz1xjchj6ozq/L5Qw1fu/nbFmSZjNovjJ9a
+UNRkgdnK74IB5gRd7tdxYwormlfOv1KZI550+K1G14bpfW8bTG2sUAEZT9CX68ju
+U84AdLdnEw==
+                        </ds:X509Certificate>
+                    </ds:X509Data>
+                </ds:KeyInfo>
+            </KeyDescriptor>
+
+            <AssertionConsumerService 
+                    index="1" 
+                    Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" 
+                    Location="https://saml-proxy-raid.exp.aaf.edu.au/Saml2/acs/post"/>
+        </SPSSODescriptor>
+        <Organization>
+            <OrganizationName xml:lang="en">RDS RAiD Project</OrganizationName>
+            <OrganizationDisplayName xml:lang="en">RDS RAiD Project</OrganizationDisplayName>
+            <OrganizationURL xml:lang="en">https://www.raid.org.au/</OrganizationURL>
+        </Organization>
+        <ContactPerson contactType="support">
+          <GivenName>Terry</GivenName>
+          <SurName>Smith</SurName>
+          <EmailAddress>mailto:t.smith@aaf.edu.au </EmailAddress>
+        </ContactPerson>
+        <ContactPerson contactType="technical">
+          <GivenName>Terry</GivenName>
+          <SurName>Smith</SurName>
+          <EmailAddress>mailto:t.smith@aaf.edu.au </EmailAddress>
+        </ContactPerson>
+        <ContactPerson contactType="administrative">
+          <GivenName>Siobhann</GivenName>
+          <SurName>Mccafferty</SurName>
+          <EmailAddress>mailto:siobhann.mccafferty@aaf.edu.au</EmailAddress>
+        </ContactPerson>
+  </EntityDescriptor>
+
+</EntitiesDescriptor>

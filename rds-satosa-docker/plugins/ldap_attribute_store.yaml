@@ -1,0 +1,23 @@
+module: ldap_attribute_store.LdapAttributeStore
+name: LdapAttributeStore
+config:
+  default:
+      ldap_url: ldaps://raid-groupid.exp.aaf.edu.au
+      bind_dn: uid=proxy_user,ou=system,o=RAID,dc=rds,dc=edu,dc=au
+      bind_password: %%SATOSA_LDAP_BIND_PASSWORD%%
+      search_base: ou=people,o=RAID,dc=rds,dc=edu,dc=au
+      search_return_attributes:
+        sn: surname
+        givenName: givenname
+        mail: mail
+        employeeNumber: employeenumber
+        isMemberOf: ismemberof
+      ordered_identifier_candidates:
+        - attribute_names: [uid]
+      ldap_identifier_attribute: uid
+      user_id_from_attrs: 
+        - employeeNumber
+      clear_input_attributes: yes
+
+  https://raid-groupid.exp.aaf.edu.au/sp/registry:
+    ignore: true
