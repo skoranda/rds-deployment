@@ -50,6 +50,7 @@ services:
             - /srv/docker/etc/shibboleth/shibboleth2.xml:/etc/shibboleth/shibboleth2.xml
             - /srv/docker/etc/shibboleth/attribute-map.xml:/etc/shibboleth/attribute-map.xml
             - /srv/docker/etc/shibboleth/rds-proxy-metadata.xml:/etc/shibboleth/rds-proxy-metadata.xml
+            - /srv/docker/opt/FileSource:/opt/FileSource
         environment:
             - SHIBBOLETH_SP_CERT=/run/secrets/shibboleth_sp_cert
             - SHIBBOLETH_SP_PRIVKEY=/run/secrets/shibboleth_sp_privkey
@@ -66,6 +67,8 @@ services:
             - COMANAGE_REGISTRY_EMAIL_PORT=465
             - COMANAGE_REGISTRY_EMAIL_ACCOUNT=AKIAI3NPSIT42A2ZWZFQ
             - COMANAGE_REGISTRY_EMAIL_ACCOUNT_PASSWORD_FILE=/run/secrets/comanage_registry_email_account_password
+            - COMANAGE_REGISTRY_ENABLE_PLUGIN=FileSource
+            - COMANAGE_DEBUG=1
         secrets:
             - shibboleth_sp_cert
             - shibboleth_sp_privkey
